@@ -1,0 +1,24 @@
+.bg-orange {
+  background-color: #e67b13;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.font-comfortaa {
+    font-family: comfortaa;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+.h-mid {
+    height: 50vh;
+}
