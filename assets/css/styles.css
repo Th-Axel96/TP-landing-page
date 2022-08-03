@@ -8,17 +8,58 @@
 }
 
 .font-comfortaa {
-    font-family: comfortaa;
+  font-family: comfortaa;
 }
 
 .text-base {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .h-full {
-    height: 100vh;
+  height: 100vh;
 }
 
-.h-mid {
-    height: 50vh;
+.h-96 {
+  height: 25rem;
+}
+
+.w-80 {
+  width: 21.25rem;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.ml-56 {
+  margin-left: 14rem; /* 224px */
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
+.rounded-none {
+  border-radius: 0px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.px-16 {
+  padding-left: 4rem; /* 28px */
+  padding-right: 4rem; /* 28px */
 }
