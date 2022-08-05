@@ -55,8 +55,6 @@
   z-index: 3;
 }
 
-
-
 .ml-28 {
   margin-left: 7rem;
 }
@@ -73,8 +71,16 @@
   margin-top: 5rem;
 }
 
+.mt-32 {
+  margin-top: 7rem;
+}
+
 .mt-76 {
   margin-top: 19rem;
+}
+
+.mb-20 {
+  margin-bottom: 4rem;
 }
 
 .pl-16 {
