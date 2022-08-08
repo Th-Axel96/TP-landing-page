@@ -14,6 +14,10 @@
   background-color: #333333;
 }
 
+.text-beige {
+  color: #f5c79b;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -31,6 +35,10 @@
   height: 100vh;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .h-96 {
   height: 25rem;
 }
@@ -46,7 +54,9 @@
 .w-80 {
   width: 21.25rem;
 }
-
+.w-full {
+  width: 100%;
+}
 .z-1 {
   z-index: 1;
 }
@@ -110,14 +120,6 @@
 .px-16 {
   padding-left: 4rem; /* 28px */
   padding-right: 4rem; /* 28px */
-}
-
-.grid {
-  display: grid;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .bg-img-avion {
