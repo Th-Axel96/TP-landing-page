@@ -46,6 +46,10 @@
   height: 53.438rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .z-1 {
   z-index: 1;
 }
@@ -58,12 +62,20 @@
   z-index: 3;
 }
 
+.ml-32 {
+  margin-left: -8rem;
+}
+
 .ml-48 {
   margin-left: 13rem;
 }
 
 .mr-20 {
   margin-right: 5rem;
+}
+
+.mt-14 {
+  margin-top: -3.5rem;
 }
 
 .mt-24 {
@@ -96,15 +108,16 @@
 }
 
 .bg-img-avion {
-  background-image: url(../img/hublot-avion.jpeg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(29, 34, 40, 0.65),
+      rgba(29, 34, 40, 0.65)
+    ),
+    url(../img/hublot-avion.jpeg);
 }
 
 .bg-img-paysage {
   background-image: url(../img/paysage.jpeg);
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-cover {

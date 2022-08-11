@@ -11,7 +11,6 @@
   </head>
 
   <body class="">
-
     <!-- HEADER Mobile L -->
     <header class="d-grid bg-orange h-192 md-h-80 font-comfortaa">
       <div class="container d-md-flex m-0">
@@ -53,25 +52,29 @@
     <!-- IMG 02 -->
     <div class="d-grid d-md-flex bg-gray m-0">
       <div class="bg-gray z-3 d-flex justify-content-center h-108 md-w-30">
-        <img
-          class="z-2 position-absolute"
-          src="./assets/img/AppleiPhonePNG03.png"
-          width="270px"
-          height="428px"
-          alt="Iphone"
-        />
-        <img
-          class="z-1 opacity-25 ml-48 mt-76"
-          src="./assets/img/02.png"
-          width="220px"
-          height="155px"
-          alt="02"
-        />
+        <div class="d-flex justify-content-center md-pl-40">
+          <img
+            class="z-2 position-absolute mt-14"
+            src="./assets/img/AppleiPhonePNG03.png"
+            width="270px"
+            height="428px"
+            alt="Iphone"
+          />
+          <div class="d-flex justify-content-end mt-76 md-pl-40">
+            <img
+              class="z-1 opacity-25"
+              src="./assets/img/02.png"
+              width="220px"
+              height="155px"
+              alt="02"
+            />
+          </div>
+        </div>
       </div>
 
       <!-- IMG 02 DONE -->
       <div
-        class="container bg-dark text-light d-flex flex-column justify-content-center"
+        class="md-ml-28 container bg-dark text-light d-flex flex-column justify-content-center"
       >
         <p class="mt-5 mx-5 fs-5 font-comfortaa">
           SO YOU WANNA BE AN AROUNDME STAR?!
@@ -130,41 +133,82 @@
     </div>
 
     <!-- 03 responsive tablette -->
-    <div class="d-none d-md-block ">
-    <div class="h-screen d-grid d-flex m-0 ">
-      <div class="bg-gray text-light">
-        <p class="ps-5 pt-5 font-comfortaa">JULY 19,2018</p>
-        <h1 class="ps-5 pe-5 mt-3 font-comfortaa">
-          AroundMe now lets you see who's online for more efficient DM'ing
-        </h1>
-        <p class="pe-5 ps-5 mb-5 mt-3">
-          The Instagram app is loaded with all sorts of features these days, one
-          of which is the ability to send direct messages to friends and family
-          members. Thanks to a new update that's rolling out, it'll now be
-          easier to get in touch with friends right away.
-        </p>
-        <div class="ps-5">
-          <a
-            class="z-1 fs-5 btn bg-orange text-light rounded-none font-comfortaa"
-            href="#"
-            >Read More</a
-          >
+    <div class="d-none d-md-block">
+      <div class="h-screen d-grid d-flex m-0">
+        <div class="bg-gray text-light">
+          <p class="ps-5 pt-5 font-comfortaa">JULY 19,2018</p>
+          <h1 class="ps-5 pe-5 mt-3 font-comfortaa">
+            AroundMe now lets you see who's online for more efficient DM'ing
+          </h1>
+          <p class="pe-5 ps-5 mb-5 mt-3">
+            The Instagram app is loaded with all sorts of features these days,
+            one of which is the ability to send direct messages to friends and
+            family members. Thanks to a new update that's rolling out, it'll now
+            be easier to get in touch with friends right away.
+          </p>
+          <div class="ps-5">
+            <a
+              class="z-1 fs-5 btn bg-orange text-light rounded-none font-comfortaa"
+              href="#"
+              >Read More</a
+            >
 
+            <img
+              class="z-2 opacity-25"
+              src="./assets/img/03.png"
+              width="250px"
+              height="158px"
+              alt="03"
+            />
+          </div>
+        </div>
+        <div class="col-8 bg-img-paysage bg-center bg-no-repeat bg-cover"></div>
+      </div>
+    </div>
+
+
+    <!-- 04 responsive tablette  -->
+    <div class="d-none d-md-block">
+    <div class="d-grid d-flex ">
+      <div
+        class="text-light font-comfortaa col-8 bg-img-avion bg-cover bg-no-repeat"
+      >
+        <h1 class="fs-2 mx-5 pt-5">
+          AroundMe is testing out a question-asking feature in Stories
+        </h1>
+        <p class="fs-5 pt-3 mx-5 pe-2 pb-20 m-0">
+          Stories are a great way to get feedback from your followers. With the
+          poll sticker and emoji slider sticker, users can find out what their
+          fans really think about...well, anything! I've seen individuals ask
+          their followers for opinions about which of two haircuts to get, which
+          of two product color schemes to go forward with, and even how much
+          they loved the finale of [insert preferred TV show here].
+        </p>
+      </div>
+      <div class="bg-gray w-full">
+        <div>
           <img
-            class="z-2 opacity-25"
-            src="./assets/img/03.png"
-            width="250px"
-            height="158px"
-            alt="03"
+            class="md-ml-52 md-mt-14"
+            src="./assets/img/iphone-posé.png"
+            width="372px"
+            height="186px"
+            alt="phone posé"
           />
         </div>
+        <img
+          class="d-flex align-items-center ml-32 opacity-25"
+          src="./assets/img/04.png"
+          width="353px"
+          height="274px"
+          alt=""
+        />
       </div>
-      <div class="col-8 bg-img-paysage bg-center bg-no-repeat bg-cover"></div>
     </div>
     </div>
+    <!-- 04tablette done -->
 
     <div
-      class="ps-5 d-grid bg-img-avion bg-contain bg-cover bg-center text-light m-0"
+      class="d-md-none ps-5 d-grid bg-img-avion bg-contain bg-cover bg-center text-light m-0"
     >
       <h1 class="fs-3 mr-20 pt-5">
         AroundMe is testing out a question-asking feature in Stories
@@ -179,7 +223,7 @@
       </p>
     </div>
     <!-- BODY 04 -->
-    <div class="d-grid d-flex justify-content-center z-3 bg-gray m-0">
+    <div class="d-md-none d-grid d-flex justify-content-center z-3 bg-gray m-0">
       <img
         class="z-2 position-absolute ps-5 pt-3"
         src="./assets/img/iphone-posé.png"
@@ -262,6 +306,5 @@
         </p>
       </section>
     </footer>
-
   </body>
 </html>
