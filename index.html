@@ -12,7 +12,7 @@
 
   <body class="">
     <!-- HEADER Mobile L -->
-    <header class="bg-orange h-192 md-h-80 font-comfortaa">
+    <header class="d-grid bg-orange h-192 md-h-80 font-comfortaa">
       <div class="container d-md-flex m-0">
         <div
           class="row d-flex justify-content-center md-w-mid flex-column m-0 h-96"
@@ -28,7 +28,9 @@
             <a class="btn btn-dark rounded-none" href="#">Google Play</a>
           </div>
         </div>
-        <div class="container p-0 d-flex justify-content-center bg-orange mt-md-5">
+        <div
+          class="container p-0 d-flex justify-content-center bg-orange mt-md-5"
+        >
           <img
             class="z-2 position-absolute mt-2"
             src="./assets/img/mobile-nicepage.png"
@@ -48,10 +50,8 @@
     </header>
     <!-- Header done -->
     <!-- IMG 02 -->
-    <div class="container d-md-flex bg-gray">
-      <div
-        class="bg-gray z-3 container d-flex justify-content-center h-108 md-w-30 "
-      >
+    <div class="d-grid d-md-flex bg-gray m-0">
+      <div class="bg-gray z-3 d-flex justify-content-center h-108 md-w-30">
         <img
           class="z-2 position-absolute"
           src="./assets/img/AppleiPhonePNG03.png"
@@ -94,7 +94,7 @@
       </div>
     </div>
     <!-- BODY text and img 03 -->
-    <div class="d-md-flex">
+    <div class="d-md-none">
       <div class="bg-gray text-light container row m-0">
         <p class="pt-5 font-comfortaa">JULY 19,2018</p>
         <h1 class="mt-3 font-comfortaa">
@@ -123,19 +123,48 @@
           />
         </div>
       </div>
-
-      <div class="container row col-12 m-0 p-0 md-w-mid">
-        <img
-          class="p-0"
-          src="./assets/img/paysage.jpeg"
-          height="816px"
-          width="auto"
-          alt="paysage"
-        />
-      </div>
+      <div
+        class="bg-img-paysage h-screen bg-no-repeat bg-cover bg-contain bg-center"
+      ></div>
     </div>
 
-    <div class="ps-5 container bg-img-avion bg-contain bg-cover text-light">
+    <!-- 03 responsive tablette -->
+    <div class="d-none d-md-block ">
+    <div class="h-screen d-grid d-flex m-0 ">
+      <div class="bg-gray text-light">
+        <p class="ps-5 pt-5 font-comfortaa">JULY 19,2018</p>
+        <h1 class="ps-5 pe-5 mt-3 font-comfortaa">
+          AroundMe now lets you see who's online for more efficient DM'ing
+        </h1>
+        <p class="pe-5 ps-5 mb-5 mt-3">
+          The Instagram app is loaded with all sorts of features these days, one
+          of which is the ability to send direct messages to friends and family
+          members. Thanks to a new update that's rolling out, it'll now be
+          easier to get in touch with friends right away.
+        </p>
+        <div class="ps-5">
+          <a
+            class="z-1 fs-5 btn bg-orange text-light rounded-none font-comfortaa"
+            href="#"
+            >Read More</a
+          >
+
+          <img
+            class="z-2 opacity-25"
+            src="./assets/img/03.png"
+            width="250px"
+            height="158px"
+            alt="03"
+          />
+        </div>
+      </div>
+      <div class="col-8 bg-img-paysage bg-center bg-no-repeat bg-cover"></div>
+    </div>
+    </div>
+
+    <div
+      class="ps-5 d-grid bg-img-avion bg-contain bg-cover bg-center text-light m-0"
+    >
       <h1 class="fs-3 mr-20 pt-5">
         AroundMe is testing out a question-asking feature in Stories
       </h1>
@@ -149,7 +178,7 @@
       </p>
     </div>
     <!-- BODY 04 -->
-    <div class="container d-flex justify-content-center z-3 bg-gray">
+    <div class="d-grid d-flex justify-content-center z-3 bg-gray m-0">
       <img
         class="z-2 position-absolute ps-5 pt-3"
         src="./assets/img/iphone-posé.png"
@@ -166,7 +195,7 @@
       />
     </div>
     <!-- 04 DONE -->
-    <div class="container bg-orange row text-light m-0 flex-column px-5">
+    <div class="d-grid bg-orange row text-light m-0 flex-column px-5">
       <h1 class="d-flex justify-content-center font-comfortaa fs-4">
         AroundMe adds video chat!
       </h1>
@@ -193,48 +222,29 @@
       </div>
     </div>
 
-    <!-- Section 4 IMG  -->
-
-    <section class="bg-gray container p-0">
-      <div class="d-flex justify-content-center pt-5 pb-4 row px-4">
+    <section class="d-grid d-md-none container row bg-gray h-screen m-0 z-3">
+      <div class="row align-items-center justify-content-center">
         <img
-          class="container col-6 d-flex justify-content-center"
-          src="./assets/img/hublot-avion.jpeg"
-          height="315px"
-          alt="hublot"
+          class="z-1 position-absolute"
+          src="./assets/img/avion&balancoire.png"
+          alt="avion & balancoire"
         />
-        <img
-          class="container d-flex align-self-end col-6"
-          src="./assets/img/balancoire.jpeg"
-          width="320px"
-          height="255px"
-          alt="balancoire"
-        />
-      </div>
-      <div class="d-flex row px-4 pb-5">
-        <img class="col-4 pb-5" src="./assets/img/voiture.jpeg" alt="voiture" />
 
         <img
-          class="col-4"
-          src="./assets/img/voyage-savane.jpeg"
-          alt="voyage-savane"
+          class="z-2 opacity-75"
+          src="./assets/img/img-text-mobile.png"
+          alt="text-img"
         />
-        <img
-          class="col-4 pb-4"
-          src="./assets/img/barque-boat.jpeg"
-          alt="barque-boat"
-        />
-      </div>
-      <div class="bg-gray text-light d-flex align-items-center flex-column">
-        <h1>How much does it cost?</h1>
-        <p>
-          Instagram is free as a bee! There aren't any in-app purchases or
-          upgrades, either!
-        </p>
       </div>
     </section>
 
-    <footer class="container bg-dark-100 py-3">
+    <section class="d-grid row d-none d-md-block bg-gray m-0">
+      <div class="row align-items-center justify-content-center h-screen">
+        <img src="./assets/img/sectionimgfortablette.png" alt="imgtablette" />
+      </div>
+    </section>
+
+    <footer class="d-grid bg-dark-100 m-0 py-3">
       <section
         class="d-flex justify-content-center fs-6 font-comfortaa text-light"
       >
