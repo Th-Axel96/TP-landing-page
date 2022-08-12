@@ -1,8 +1,8 @@
-# - FR
+- #  FR
 
-# - Consigne :
+- #  Consigne :
 
-* 1. * Prendre connaissance des maquettes en version desktop, tablette et mobile.
+1.  Prendre connaissance des maquettes en version desktop, tablette et mobile.
 2. Préparer la base de vitre projet en respectant les standards de développement.
 3. Réaliser, via la syntaxe markdown, un README cohérent expliquant
    la nature de votre projet.
@@ -15,7 +15,7 @@
 8. Soumettez votre travail àvotre coach-formateur, qui se trouve
    être le commanditaire du projet et… encaissez les critiques !
 
-# - Réalisation :
+- #  Réalisation :
 
 1. J'ai pris connaissance des maquettes en version desktop, tablette et mobile.
    Lien de la page : https://nicepage.com/landing-page/preview/everything-is-technology-19816?device=desktop
@@ -31,7 +31,7 @@
 11. J'ai push mon projet finis sur Github.
 12. Pour finir j'ai mis mon projet sur un serveur FTP avec FileZilla.
 
-# - Outils :
+- #  Outils :
 
 1. Visual studio code.
 2. Boostrap. https://getbootstrap.com/
@@ -41,13 +41,13 @@
 6. FileZilla. Logiciel serveur FTP
 7. GTmetrix. https://gtmetrix.com/
 
-# - Collaboration.
+- #  Collaboration.
 
 - Axel.
 
 # - EN
 
-# - Achievement
+- #  Achievement
 
 1. I have know the models on version desktop, mobile and tablet.
    Link on page : https://nicepage.com/landing-page/preview/everything-is-technology-19816?device=desktop
@@ -63,7 +63,7 @@
 11. I push my finaly project on Github.
 12. For finaly i put my project on server FTP with FilleZila.
 
-# - Tools
+- #  Tools
 
 1. Visual studio code.
 2. Boostrap. https://getbootstrap.com/
@@ -73,6 +73,6 @@
 6. FileZilla. Software server FTP
 7. GTmetrix. https://gtmetrix.com/
 
-# - Author 
+- #  Author 
 
 - Only me Axel.
